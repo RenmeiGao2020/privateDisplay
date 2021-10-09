@@ -3,7 +3,7 @@
 <!-----
 NEW: Check the "Suppress top comment" option to remove this info from the output.
 
-Conversion time: 0.831 seconds.
+Conversion time: 0.828 seconds.
 
 
 Using this Markdown file:
@@ -16,7 +16,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β31
-* Fri Oct 08 2021 21:12:52 GMT-0700 (PDT)
+* Fri Oct 08 2021 21:24:54 GMT-0700 (PDT)
 * Source doc: Use Case Model
 ----->
 
@@ -47,7 +47,7 @@ Conversion notes:
 6. double: Yearly bonus
 7. int: Allowed weekly telework days (expressed as the number of days per week allowed for remote work, inclusively between 0 and 5)
 8. int: Leave time (vacation days and holiday and/or sick leave, as a single overall number of days)
-9. double: Gym membership allowance ($0 to $500 annually)
+9. double: Gym membership allowance ($0 to $500 annually)*
 
 - *Post-conditions: 
 
@@ -60,13 +60,13 @@ Conversion notes:
 - *Scenarios: Sequence of events that characterize the use case.
 
 
-    Step 1:
+    **Step 1:**
 
 
     Click the button ‘Enter/ Edit Current Job’
 
 
-    Step 2: 
+    **Step 2:**
 
 
     Enter the 9 fields of the current job offer
@@ -112,7 +112,7 @@ Conversion notes:
     For comparing the offer with the current job, the preconditions are as follows:
 
 1. There is a current job offer in the system
-2. The new job offer is saved successfully
+2. The new job offer is saved successfully*
 
 - *Post-conditions: 
 
@@ -129,13 +129,13 @@ Conversion notes:
 - *Scenarios: Sequence of events that characterize the use case.
 
 
-    Step 1:
+    **Step 1:**
 
 
     Click the button ‘Enter Job Offer(s)’
 
 
-    Step 2: 
+    **Step 2:**
 
 
     Enter the 9 fields of a new job offer
@@ -144,7 +144,7 @@ Conversion notes:
 
 * Scenario 1: A user enters a wrong input data type or data range, and the screen  displays an error message to the user.
 
-	Step3: 
+	**Step3:**
 
 	Choose to save information of the new offer or cancel and exit the page
 
@@ -154,7 +154,7 @@ Conversion notes:
 * Scenario 2: A user decides not to save the information and she/ he enters the button ‘Cancel/ Exit’, the screen switches to the main menu.
 * Scenario 3: When a user enters all the fields appropriately, and she/ he enters the button ‘SAVE’, this new job offer will be saved into the system.
 
-	Step 4:
+**Step 4:**
 
 	Choose to Enter Another Offer
 
@@ -163,7 +163,7 @@ Conversion notes:
 * Scenario 1: A user ignores this option or click the button accidentally and she/ he can cancel it and return to the main menu
 * Scenario 2: When a user chooses it and it will repeat Step 3
 
-	Step 5:	
+	**Step 5:**
 
 	Compare with the Current Job
 
@@ -187,7 +187,7 @@ There are drop down boxes of integers to assign to weights of the following attr
 2. Yearly bonus
 3. Allowed weekly telework days
 4. Leave time
-5. Gym membership allowance
+5. Gym membership allowance*
 
 - *Post-conditions: 
 
@@ -229,7 +229,7 @@ There are drop down boxes of integers to assign to weights of the following attr
 
 - *Requirements: This use case allows a user to compare Job Offers. It has 4 sub-menu to choose: (1)Display Offer Ranks (2)Compare Two Jobs (3)Display Jobs comparison details (4)Compare Another Two Jobs*
 
-- *Pre-conditions: For ‘Compare Two Jobs’ and ‘Compare Another Two Jobs’, there must be at least two saved job offers in the system.
+- *Pre-conditions: For ‘Compare Two Jobs’ and ‘Compare Another Two Jobs’, there must be at least two saved job offers in the system.*
 
 - *Post-conditions: 
 
@@ -246,13 +246,13 @@ There are drop down boxes of integers to assign to weights of the following attr
 - *Scenarios: Sequence of events that characterize the use case.
 
 
-    Step 1:
+    **Step 1:**
 
 
     Click the button ‘Compare Job Offers’
 
 
-    Step 2: 
+    **Step 2:**
 
 
     Click the button ‘Display Offer Ranks’
@@ -262,7 +262,7 @@ There are drop down boxes of integers to assign to weights of the following attr
 * Scenario 1: A user clicks the button ‘Display Offer Ranks’ and if there are no offers in the system, the App displays an error message
 * Scenario 2: A user clicks the button ‘Display Offer Ranks’ and if there is at least one offer in the system, the App displays all the job offer ranks on the screen
 
-	Step3: 
+	**Step3:**
 
 	Click the button ‘Compare Two Jobs’
 
@@ -271,7 +271,7 @@ There are drop down boxes of integers to assign to weights of the following attr
 * Scenario 1: A user selects the ‘Compare Two Jobs’ button, and there are less than two jobs in the system, the App gives the user an error message
 * Scenario 3: If a user selects the ‘Compare Two Jobs’ button, and there are more than two jobs in the system, the App will let the user choose two jobs from the system to compare. After the user choosing two jobs, the App compares two jobs using the comparator in the system and displays a general result
 
-	Step 4:
+	**Step 4:**
 
 	Click the button ‘Display Jobs comparison details’
 
@@ -280,7 +280,7 @@ There are drop down boxes of integers to assign to weights of the following attr
 * Scenario 1: A user clicks ‘Display Jobs comparison details’ but she/he didn’t compare two jobs, the App displays an error message
 * Scenario 2: A user clicks ‘Display Jobs comparison details’,the App will display the comparison details of two job offers
 
-	Step 5:	
+	**Step 5:**
 
 	Click the button ‘Compare Another Two Jobs’
 
